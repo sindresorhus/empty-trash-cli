@@ -25,6 +25,7 @@ $ empty-trash --help
 ## Related
 
 - [empty-trash](https://github.com/sindresorhus/empty-trash) - API for this module
+- [trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and folders to the trash
 
 
 ## License
