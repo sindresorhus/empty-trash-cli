@@ -2,7 +2,7 @@
 
 > Empty the [trash](http://en.wikipedia.org/wiki/Trash_(computing))
 
-Works on OS X, Linux, and Windows.
+Works on macOS, Linux, and Windows.
 
 
 ## Install
