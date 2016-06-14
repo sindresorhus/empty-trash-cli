@@ -1,9 +1,6 @@
-import childProcess from 'child_process';
 import test from 'ava';
+import execa from 'execa';
 
-test.cb(t => {
-	childProcess.execFile('./cli.js', {cwd: __dirname}, err => {
-		t.ifError(err);
-		t.end();
-	});
+test(t => {
+	t.notThrows(execa('./cli.js', {cwd: __dirname}));
 });
