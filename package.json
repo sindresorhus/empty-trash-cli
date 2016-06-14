@@ -1,6 +1,6 @@
 {
   "name": "empty-trash-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Empty the trash",
   "license": "MIT",
   "repository": "sindresorhus/empty-trash-cli",
