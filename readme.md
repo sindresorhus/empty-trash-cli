@@ -1,16 +1,14 @@
-# empty-trash-cli [![Build Status](https://travis-ci.org/sindresorhus/empty-trash-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/empty-trash-cli)
+# empty-trash-cli [![Build Status](https://travis-ci.com/sindresorhus/empty-trash-cli.svg?branch=master)](https://travis-ci.com/sindresorhus/empty-trash-cli)
 
-> Empty the [trash](http://en.wikipedia.org/wiki/Trash_(computing))
+> Empty the [trash](https://en.wikipedia.org/wiki/Trash_(computing))
 
 Works on macOS, Linux, and Windows.
-
 
 ## Install
 
 ```
 $ npm install --global empty-trash-cli
 ```
-
 
 ## Usage
 
@@ -21,13 +19,7 @@ $ empty-trash --help
     $ empty-trash
 ```
 
-
 ## Related
 
 - [empty-trash](https://github.com/sindresorhus/empty-trash) - API for this module
 - [trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and folders to the trash
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
