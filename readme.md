@@ -1,4 +1,4 @@
-# empty-trash-cli [![Build Status](https://travis-ci.com/sindresorhus/empty-trash-cli.svg?branch=master)](https://travis-ci.com/sindresorhus/empty-trash-cli)
+# empty-trash-cli
 
 > Empty the [trash](https://en.wikipedia.org/wiki/Trash_(computing))
 
