@@ -1,54 +1,52 @@
 {
-  "name": "empty-trash-cli",
-  "version": "1.0.1",
-  "description": "Empty the trash",
-  "license": "MIT",
-  "repository": "sindresorhus/empty-trash-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "empty-trash": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "trash",
-    "recycle",
-    "file",
-    "files",
-    "dir",
-    "directory",
-    "directories",
-    "empty",
-    "clear",
-    "macos",
-    "osx",
-    "windows",
-    "linux"
-  ],
-  "dependencies": {
-    "empty-trash": "^2.0.0",
-    "meow": "^3.4.2",
-    "update-notifier": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.4.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "empty-trash-cli",
+	"version": "1.0.1",
+	"description": "Empty the trash",
+	"license": "MIT",
+	"repository": "sindresorhus/empty-trash-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"bin": {
+		"empty-trash": "./cli.js"
+	},
+	"engines": {
+		"node": "^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"trash",
+		"recycle",
+		"file",
+		"files",
+		"dir",
+		"directory",
+		"directories",
+		"empty",
+		"clear",
+		"macos",
+		"osx",
+		"windows",
+		"linux"
+	],
+	"dependencies": {
+		"empty-trash": "^4.0.0",
+		"meow": "^10.1.1"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"xo": "^0.45.0"
+	}
 }

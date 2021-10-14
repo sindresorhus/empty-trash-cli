@@ -1,14 +1,12 @@
 #!/usr/bin/env node
-'use strict';
-const updateNotifier = require('update-notifier');
-const meow = require('meow');
-const emptyTrash = require('empty-trash');
+import meow from 'meow';
+import emptyTrash from 'empty-trash';
 
-const cli = meow(`
+meow(`
 	Usage
 	  $ empty-trash
-`);
-
-updateNotifier({pkg: cli.pkg}).notify();
+`, {
+	importMeta: import.meta,
+});
 
 emptyTrash();

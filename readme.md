@@ -6,8 +6,8 @@ Works on macOS, Linux, and Windows.
 
 ## Install
 
-```
-$ npm install --global empty-trash-cli
+```sh
+npm install --global empty-trash-cli
 ```
 
 ## Usage
